@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Internal CSS</title>
+        <link rel="stylesheet" href="./external.css">
+    </head>
+    <body>
+        <h1 id="Base">Hello EveryOne!</h1>
+
+        <h3  class="Evening">Good Evening</h3>
+
+        <p class="robo">Welcome to all</p>
+
+        <div>
+            <a id="links" href="./basic.html">LogIn</a>
+        </div>
+
+         <style>
+
+            body{
+                background-image:url("https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630") ;
+                background-repeat: no-repeat;
+                 }
+
+            #Base{
+                color: blueviolet;
+                background-color: aqua;
+                font-size: 20px;
+                padding-left: 30px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                border: dotted greenyellow;
+                border-radius: 10px;
+                margin-left: 100px;
+                margin-right: 200px;
+
+                  //*this is used for move the content in css -flex will adjust the content*/ 
+                }
+
+                .Evening{
+                    color: red;
+                    font-size: 30px;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    background-color: gold;
+                    margin-right: 700px;
+                }
+
+                #links :visited{
+                color:red;
+        
+             }
+
+             a{
+                text-decoration: none;
+             }
+            
+         </style>
+    </body>
+</html>
